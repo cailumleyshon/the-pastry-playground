@@ -40,6 +40,7 @@ body {
     flex: 1;
     position: fixed;
     border-bottom: groove 2px black;
+    opacity: 100%;
 }
 
 h2 {
