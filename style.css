@@ -1,5 +1,5 @@
 * {
-    background-color: gray;
+    background-color: #808080;
 }
 
 @font-face {
@@ -39,7 +39,6 @@ body {
     justify-content: space-evenly;
     flex: 1;
     position: fixed;
-    opacity: 100%;
     border-bottom: groove 2px black;
 }
 
@@ -85,6 +84,7 @@ button {
 .recipe-section-2 .recipe-image-2 img {
     border-radius: 20px;
     width: 300px;
+    opacity: 70%;
 }
 
 .recipe-section-1, .recipe-section-2 {
@@ -94,10 +94,11 @@ button {
 }
 
 footer {
+    background-color: hsl(0, 50%, 35%);
     display: flex;
     justify-content: space-evenly;
     position: fixed;
-    border-top: ridge 2px black;
+    border-top: groove 2px black;
     bottom: 0;
     left: 0;
     height: 60px;
@@ -106,11 +107,23 @@ footer {
 
 }
 
+footer,
+.social-media-links,
+.social-media-links button,
+.copyright-section,
+.social-media-1,
+.social-media-2,
+.social-media-3,
+.copyright-text {
+    background-color: hsl(0, 50%, 35%);
+}
+
 .social-media-links { 
     display: flex;
     align-items: center;
     cursor: pointer;
 }
+
 
 .social-media-links button {
     margin-right: 20px;
