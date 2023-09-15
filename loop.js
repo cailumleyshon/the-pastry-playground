@@ -5,8 +5,11 @@ function getRating() {
     for (i = 0; i < rating; i++) {
       document.write("<img id='croissant' src='croissant.png'/>");
     }
-  } else {
-    alert("I said 1-5");
+  } else if (rating > 5) {
+    alert("I said 1-5.. but thanks for the higher number ;)");
+    getRating();
+  } else if (rating == 0) {
+    alert("That's not very nice.. :( please rate fairly");
     getRating();
   }
 }
